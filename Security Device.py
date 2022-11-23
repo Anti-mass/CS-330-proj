@@ -86,7 +86,7 @@ def rand_lock_test_average(runs):
     print('Average runtime: '+ '{:,}'.format(average_runtime//runs)+' seconds')
 
 while(True):
-    choice = input("Please enter an option: \n"+
+    choice = input("To choose an option please enter its number: \n"+
     "1: Interactive lock simulation\n"+ 
     "2: Test time to crack lock once using random inputs\n"+
     "3: Test Average time to crack over a given number of runs\n"+   
